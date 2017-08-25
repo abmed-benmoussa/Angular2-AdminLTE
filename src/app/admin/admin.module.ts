@@ -8,6 +8,7 @@ import { MainHeaderComponent } from './main-header/main-header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ControlSidebarComponent } from './control-sidebar/control-sidebar.component';
 import { Dashboard1Component } from './dashboard1/dashboard1.component';
+import { MaterielsComponent } from './materiels/materiels.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,8 @@ import { Dashboard1Component } from './dashboard1/dashboard1.component';
     MainHeaderComponent, 
     FooterComponent, 
     ControlSidebarComponent, 
-    Dashboard1Component
+    Dashboard1Component, 
+    MaterielsComponent
   ],
   exports: [AdminComponent]
 })
